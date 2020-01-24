@@ -1,4 +1,5 @@
-Time spent write blocked by message type:
+Time spent write blocked by message type (microseconds):
+
 write_blocked:                                         PAPZ::Msg_NotifyAPZStateChange:          0
 write_blocked:                                        PAPZ::Msg_RequestContentRepaint:          0
 write_blocked:                            PAPZCTreeManager::Msg_UpdateZoomConstraints:          0

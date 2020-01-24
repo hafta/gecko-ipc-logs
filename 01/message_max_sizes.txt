@@ -1,4 +1,5 @@
-Max message size:
+Max message size (bytes):
+
 max_message_size:                                   PAltDataOutputStream::Msg_DeleteSelf:         64
 max_message_size:                                      PBackgroundIDBDatabase::Msg_Close:         64
 max_message_size:                                   PBackgroundIDBDatabase::Msg_DeleteMe:         64

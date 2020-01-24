@@ -1,4 +1,4 @@
-Total data sent by message type:
+Total data sent by message type (bytes):
 
 START:
 total_data:                     PBackgroundIDBVersionChangeTransaction::Msg_Commit:         64

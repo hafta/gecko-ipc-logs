@@ -1,4 +1,4 @@
-Time between sendmsg/recvmsg quantization by message type:
+Time between sendmsg/recvmsg quantization by message type (microseconds):
 
 START:
 

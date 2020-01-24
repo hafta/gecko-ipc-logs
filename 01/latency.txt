@@ -1,4 +1,4 @@
-Total latency by message type:
+Total latency by message type (microseconds):
 total_latency:                         PBackground::Msg_PFileDescriptorSetConstructor:         17
 total_latency:                          PClientHandle::Msg_PClientHandleOpConstructor:         28
 total_latency:                                  PBackgroundLSDatabase::Msg___delete__:         30

@@ -1,4 +1,5 @@
-Time spent between sendmsg/recvmsg by message type:
+Time spent between sendmsg/recvmsg by message type (microseconds):
+
 between_send_recv:                         PBackground::Msg_PFileDescriptorSetConstructor:          7
 between_send_recv:                     PBackgroundIDBVersionChangeTransaction::Msg_Commit:         11
 between_send_recv:          PBackgroundIDBVersionChangeTransaction::Msg_CreateObjectStore:         12

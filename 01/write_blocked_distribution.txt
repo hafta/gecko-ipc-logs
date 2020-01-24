@@ -1,4 +1,4 @@
-Write Block time quantization by message type:
+Write Block time quantization by message type (microseconds):
 
 START:
 

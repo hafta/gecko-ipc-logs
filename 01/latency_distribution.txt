@@ -1,4 +1,4 @@
-Latency quantization by message type:
+Latency quantization by message type (microseconds):
 
 START:
 
