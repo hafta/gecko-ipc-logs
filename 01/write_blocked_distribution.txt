@@ -1,0 +1,2590 @@
+Write Block time quantization by message type:
+
+START:
+
+  PAPZCTreeManager::Msg_UpdateZoomConstraints       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackground::Msg_PCacheConstructor                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackground::Msg_PCacheStreamControlConstructor   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackground::Msg_PFileDescriptorSetConstructor    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackground::Msg_PQuotaConstructor                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackground::Msg_PRemoteWorkerConstructor         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackgroundIDBVersionChangeTransaction::Msg_Commit
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackgroundIDBVersionChangeTransaction::Msg_CreateObjectStore
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackgroundLSDatabase::Msg___delete__             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackgroundLSSnapshot::Msg_DeleteMe               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackgroundLSSnapshot::Msg_Finish                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBackgroundLSSnapshot::Msg___delete__             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBrowser::Msg_ParentActivated                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PBrowser::Msg_ScrollRectIntoView                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PCache::Msg_PCacheOpConstructor                   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PCacheStorage::Msg_PCacheOpConstructor            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PCacheStorage::Msg_Teardown                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PCacheStreamControl::Msg_NoteClosed               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PCacheStreamControl::Msg___delete__               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PClientHandle::Msg_PClientHandleOpConstructor     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PClientManager::Msg_PClientHandleConstructor      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PContent::Msg_ProvideAnonymousTemporaryFile       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PContent::Msg_RequestAnonymousTemporaryFile       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PFileDescriptorSet::Msg___delete__                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PHttpChannel::Msg_Suspend                         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PRemoteWorker::Msg_Created                        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PRemoteWorker::Msg_SetServiceWorkerSkipWaitingFlag
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PServiceWorker::Msg_PostMessage                   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PServiceWorkerContainer::Msg_GetRegistrations     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PServiceWorkerContainer::Msg_Register             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PServiceWorkerContainer::Reply_GetRegistrations   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PServiceWorkerContainer::Reply_Register           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PServiceWorkerRegistration::Msg_FireUpdateFound   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1        
+               1 |                                         0        
+
+  PAPZ::Msg_NotifyAPZStateChange                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PBackground::Msg_PServiceWorkerConstructor        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PBackground::Msg_PServiceWorkerRegistrationConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PBackgroundLSSnapshot::Msg_LoadValueAndMoreItems  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PBroadcastChannel::Msg_Notify                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PBrowser::Msg_SessionStoreUpdate                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PCacheOp::Msg___delete__                          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PClientSource::Msg_InheritController              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PContent::Msg_Deactivate                          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PContent::Msg_LoadURI                             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PContent::Msg_StoreUserInteractionAsPermission    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PHal::Msg_DisableSensorNotifications              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PHal::Msg_EnableSensorNotifications               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PProcessHangMonitor::Msg_CancelContentJSExecutionIfRunning
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PQuota::Msg_PQuotaRequestConstructor              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PQuotaRequest::Msg___delete__                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 2        
+               1 |                                         0        
+
+  PBackground::Msg_PBackgroundLSDatabaseConstructor 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackground::Msg_PBackgroundLSRequestConstructor  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackgroundIDBRequest::Msg___delete__             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackgroundIDBTransaction::Msg_Complete           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackgroundIDBTransaction::Msg_DeleteMe           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackgroundIDBTransaction::Msg___delete__         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackgroundLSRequest::Msg_Ready                   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackgroundLSRequest::Msg___delete__              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBrowser::Msg_IsWindowSupportingWebVR             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBrowser::Msg_StopIMEStateManagement              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBrowser::Reply_IsWindowSupportingWebVR           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PClientManager::Msg_PClientManagerOpConstructor   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PContent::Msg_Activate                            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PContent::Msg_DataStorageClear                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PContent::Msg_GetMemoryUniqueSetSize              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PHttpChannel::Msg_FailedAsyncOpen                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PMessagePort::Msg_PostMessages                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PMessagePort::Msg_ReceiveData                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3        
+               1 |                                         0        
+
+  PBackground::Msg_PMessagePortConstructor          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PBackgroundIDBDatabase::Msg_PBackgroundIDBTransactionConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PBackgroundIDBTransaction::Msg_Commit             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PBackgroundIDBTransaction::Msg_PBackgroundIDBRequestConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PClientSource::Msg_PClientSourceOpConstructor     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PClientSourceOp::Msg___delete__                   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PHttpChannel::Msg_ReportSecurityMessage           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PMessagePort::Msg_Close                           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PMessagePort::Msg_Entangled                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PMessagePort::Msg___delete__                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4        
+               1 |                                         0        
+
+  PBackground::Msg_PBroadcastChannelConstructor     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PBroadcastChannel::Msg_Close                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PBroadcastChannel::Msg_PostMessage                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PBroadcastChannel::Msg___delete__                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PBrowser::Msg_RealMouseButtonEvent                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PClientSource::Msg_WorkerSyncPing                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PClientSource::Reply_WorkerSyncPing               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PContent::Msg_StoreAndBroadcastBlobURLRegistration
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 5        
+               1 |                                         0        
+
+  PBackground::Msg_PClientManagerConstructor        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 6        
+               1 |                                         0        
+
+  PBenchmarkStorage::Msg_Put                        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 6        
+               1 |                                         0        
+
+  PContent::Msg_AddPermission                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 6        
+               1 |                                         0        
+
+  PContent::Msg_InitBackground                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 6        
+               1 |                                         0        
+
+  PIdleScheduler::Msg_PrioritizedOperationDone      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 6        
+               1 |                                         0        
+
+  PIdleScheduler::Msg_RunningPrioritizedOperation   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 6        
+               1 |                                         0        
+
+  PBrowser::Msg_OnSecurityChange                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7        
+               1 |                                         0        
+
+  PClientManager::Msg_Teardown                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7        
+               1 |                                         0        
+
+  PClientManager::Msg___delete__                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7        
+               1 |                                         0        
+
+  PContent::Msg_ReportContentBlockingLog            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7        
+               1 |                                         0        
+
+  PContentPermissionRequest::Msg_NotifyResult       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7        
+               1 |                                         0        
+
+  PContentPermissionRequest::Msg___delete__         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7        
+               1 |                                         0        
+
+  PServiceWorkerRegistration::Msg_UpdateState       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 7        
+               1 |                                         0        
+
+  PBackgroundIDBFactory::Msg_DeleteMe               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 8        
+               1 |                                         0        
+
+  PBackgroundIDBFactory::Msg___delete__             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 8        
+               1 |                                         0        
+
+  PHal::Msg_NotifyWakeLockChange                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 8        
+               1 |                                         0        
+
+  PRemoteWorker::Reply_ExecServiceWorkerOp          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 8        
+               1 |                                         0        
+
+  PBackground::Msg_PBackgroundIDBFactoryConstructor 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 9        
+               1 |                                         0        
+
+  PCacheStorage::Msg___delete__                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 9        
+               1 |                                         0        
+
+  PContent::Msg_SetGeolocationHigherAccuracy        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 9        
+               1 |                                         0        
+
+  PBackground::Msg_PIPCBlobInputStreamConstructor   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PBackgroundIDBDatabase::Msg_Close                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PBackgroundIDBDatabase::Msg_DeleteMe              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PBackgroundIDBDatabase::Msg___delete__            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PBackgroundIDBFactory::Msg_PBackgroundIDBDatabaseConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PBackgroundIDBFactoryRequest::Msg___delete__      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PContent::Msg_BlobURLRegistration                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PContent::Msg_PIPCBlobInputStreamConstructor      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PNecko::Msg_PStunAddrsRequestConstructor          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PStunAddrsRequest::Msg_GetStunAddrs               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PStunAddrsRequest::Msg_OnStunAddrsAvailable       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 10       
+               1 |                                         0        
+
+  PBackground::Msg_PCacheStorageConstructor         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 11       
+               1 |                                         0        
+
+  PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 11       
+               1 |                                         0        
+
+  PBrowser::Msg_SetCursor                           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 11       
+               1 |                                         0        
+
+  PNecko::Msg_SpeculativeConnect                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 11       
+               1 |                                         0        
+
+  PDocumentChannel::Msg_ConfirmRedirect             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 12       
+               1 |                                         0        
+
+  PImageBridge::Msg_ReleaseCompositable             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 13       
+               1 |                                         0        
+
+  PBrowser::Msg_EnableDisableCommands               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 14       
+               1 |                                         0        
+
+  PContent::Msg_BlobURLUnregistration               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 14       
+               1 |                                         0        
+
+  PIPCBlobInputStream::Msg_Close                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 14       
+               1 |                                         0        
+
+  PContent::Msg_PreferenceUpdate                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 15       
+               1 |                                         0        
+
+  PImageBridge::Msg_NewCompositable                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 15       
+               1 |                                         0        
+
+  PImageBridge::Reply_NewCompositable               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 15       
+               1 |                                         0        
+
+  PHttpChannel::Msg_SetClassifierMatchedInfo        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 17       
+               1 |                                         0        
+
+  PImageBridge::Msg_DidComposite                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 22       
+               1 |                                         0        
+
+  PBrowser::Msg_OnProgressChange                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 24       
+               1 |                                         0        
+
+  PContent::Msg_SetPermissionsWithKey               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 24       
+               1 |                                         0        
+
+  PIPCBlobInputStream::Msg___delete__               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 24       
+               1 |                                         0        
+
+  PFetchEventOpProxy::Msg_RespondWith               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 25       
+               1 |                                         0        
+
+  PFetchEventOpProxy::Msg___delete__                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 25       
+               1 |                                         0        
+
+  PMediaTransport::Reply_GetIceStats                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 28       
+               1 |                                         0        
+
+  PHttpChannel::Msg_LogMimeTypeMismatch             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 34       
+               1 |                                         0        
+
+  PHttpChannel::Msg_BytesRead                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 35       
+               1 |                                         0        
+
+  PHttpChannel::Msg_RemoveCorsPreflightCacheEntry   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 45       
+               1 |                                         0        
+
+  PContent::Msg_CopyFavicon                         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 52       
+               1 |                                         0        
+
+  PBrowser::Msg_RealKeyEvent                        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 62       
+               1 |                                         0        
+
+  PBrowser::Msg_OnLocationChange                    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 68       
+               1 |                                         0        
+
+  PVsync::Msg_Unobserve                             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 73       
+               1 |                                         0        
+
+  PVsync::Msg_Observe                               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 74       
+               1 |                                         0        
+
+  PAPZ::Msg_RequestContentRepaint                   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 76       
+               1 |                                         0        
+
+  PCookieService::Msg_TrackCookiesLoad              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 82       
+               1 |                                         0        
+
+  PDocumentChannel::Msg_RedirectToRealChannel       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 82       
+               1 |                                         0        
+
+  PBackgroundLSSnapshot::Msg_Checkpoint             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 126      
+               1 |                                         0        
+
+  PClientSource::Msg_NoteDOMContentLoaded           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 141      
+               1 |                                         0        
+
+  PBackground::Msg_PServiceWorkerContainerConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 147      
+               1 |                                         0        
+
+  PContent::Reply_DetachBrowsingContext             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 177      
+               1 |                                         0        
+
+  PWindowGlobal::Msg___delete__                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 201      
+               1 |                                         0        
+
+  PBackground::Msg_PEndpointForReportConstructor    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 240      
+               1 |                                         0        
+
+  PEndpointForReport::Msg___delete__                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 240      
+               1 |                                         0        
+
+  PClientManager::Msg_PClientSourceConstructor      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 262      
+               1 |                                         0        
+
+  PClientSource::Msg_Teardown                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 268      
+               1 |                                         0        
+
+  PClientSource::Msg___delete__                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 268      
+               1 |                                         0        
+
+  PBrowser::Msg_SynthMouseMoveEvent                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 295      
+               1 |                                         0        
+
+  PClientSource::Msg_ExecutionReady                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 369      
+               1 |                                         0        
+
+  PIdleScheduler::Msg_IdleTimeUsed                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 453      
+               1 |                                         0        
+
+  PIdleScheduler::Msg_RequestIdleTime               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 453      
+               1 |                                         0        
+
+  PIdleScheduler::Msg_IdleTime                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 455      
+               1 |                                         0        
+
+  PImageBridge::Msg_PTextureConstructor             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 655      
+               1 |                                         0        
+
+  PCompositorBridge::Msg_DidComposite               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 695      
+               1 |                                         0        
+
+  PImageBridge::Msg_Update                          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 916      
+               1 |                                         0        
+
+  SHMEM_DESTROYED_MESSAGE                           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1198     
+               1 |                                         0        
+
+  PTexture::Msg___delete__                          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1842     
+               1 |                                         0        
+
+  PBackground::Msg_PHttpBackgroundChannelConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1974     
+               1 |                                         0        
+
+  PVsync::Msg_Notify                                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 3058     
+               1 |                                         0        
+
+  PIdleScheduler::Msg_Schedule                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 4047     
+               1 |                                         0        
+
+  PContent::Msg_UnstoreAndBroadcastBlobURLUnregistration
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       6        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |@@@@@@                                   1        
+              32 |                                         0        
+
+  PBrowser::Msg_AsyncMessage                        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 108      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         1        
+              32 |                                         0        
+
+  PCookieService::Msg_AddCookie                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  39       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |@                                        1        
+              64 |                                         0        
+
+  PHttpChannel::Msg_NotifyCookieBlocked             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 253      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+
+  PContent::Msg_NotifyVisited                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 413      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+
+  PHttpChannel::Msg_OverrideReferrerInfoDuringBeginConnect
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 858      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+
+  PHttpChannel::Msg_NotifyFlashPluginStateChanged   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   47       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |@                                        1        
+              32 |@                                        1        
+              64 |                                         0        
+
+  PHttpChannel::Msg_OnProgress                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  109      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         1        
+              32 |                                         1        
+              64 |                                         0        
+
+  PBrowser::Msg_SetLinkStatus                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    22       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |@@                                       1        
+              32 |                                         0        
+              64 |@@                                       1        
+             128 |                                         0        
+
+  PHttpChannel::Msg_Redirect1Begin                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  100      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |@                                        2        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         0        
+
+  PHttpChannel::Msg_NotifyCookieAllowed             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 456      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         1        
+              32 |                                         3        
+              64 |                                         0        
+
+  PContent::Msg_DataStorageRemove                   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   77       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |@                                        3        
+              64 |                                         1        
+             128 |                                         0        
+
+  PHttpChannel::Msg_NotifyChannelClassifierProtectionDisabled
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1059     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         2        
+              32 |                                         2        
+              64 |                                         2        
+             128 |                                         0        
+
+  PContent::Msg_SetURITitle                         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@                     1        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |@@@@@@@@@@@@@@@@@@@@                     1        
+             512 |                                         0        
+
+  PContentPermissionRequest::Msg_Destroy            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       6        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |@@@@@@                                   1        
+             512 |                                         0        
+
+  PContent::Msg_DetachBrowsingContext               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 176      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         1        
+             512 |                                         0        
+
+  PHttpChannel::Msg_NotifyClassificationFlags       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1079     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         2        
+              16 |                                         2        
+              32 |                                         1        
+              64 |                                         3        
+             128 |                                         0        
+
+  PHttpChannel::Msg_SetClassifierMatchedTrackingInfo
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1028     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         1        
+               8 |                                         3        
+              16 |                                         2        
+              32 |                                         1        
+              64 |                                         3        
+             128 |                                         0        
+
+  PContent::Msg_ScriptErrorWithStack                
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    12       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@@@                                      1        
+            1024 |                                         0        
+
+  PWindowGlobal::Msg_Destroy                        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 199      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         2        
+             512 |                                         0        
+
+  PContent::Msg_DataStoragePut                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   453      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         5        
+              32 |@                                        8        
+              64 |                                         3        
+             128 |                                         1        
+             256 |                                         1        
+             512 |                                         0        
+
+  PContent::Reply_GetMemoryUniqueSetSize            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@              2        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |@@@@@@@@@@@@@                            1        
+            2048 |                                         0        
+
+  PContent::Msg_PContentPermissionRequestConstructor
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       6        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |@@@@@@                                   1        
+            2048 |                                         0        
+
+  PContentPermissionRequest::Msg_prompt             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       6        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |@@@@@@                                   1        
+            2048 |                                         0        
+
+  PWindowGlobal::Msg_SetHasBeforeUnload             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  70       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@                                        2        
+            1024 |                                         0        
+
+  PCompositorBridge::Msg_PTextureConstructor        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1261     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         1        
+            2048 |                                         0        
+
+  SHMEM_CREATED_MESSAGE                             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1262     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         1        
+            2048 |                                         0        
+
+  PBrowser::Msg_SetInputContext                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     17       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@@                                       1        
+            1024 |@@                                       1        
+            2048 |                                         0        
+
+  PLayerTransaction::Msg_Update                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 730      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         3        
+            1024 |                                         0        
+
+  PBrowser::Msg_NavigationFinished                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@                     1        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@@@@@@@@@@@@@@@@@@@@                     1        
+            4096 |                                         0        
+
+  PContent::Msg_StartVisitedQueries                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   19       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@@                                       1        
+            4096 |                                         0        
+
+  PContent::Msg_AccumulateChildHistograms           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  39       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@                                        1        
+            4096 |                                         0        
+
+  PHal::Msg_UnlockScreenOrientation                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  56       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@                                        1        
+            4096 |                                         0        
+
+  PHttpChannel::Msg_Redirect3Complete               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  101      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |                                         1        
+            4096 |                                         0        
+
+  PContent::Msg_NotifyMediaAudibleChanged           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@            5        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |@@@@@@                                   1        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@@@@@@                                   1        
+            4096 |                                         0        
+
+  PContent::Msg_NotifyMediaActiveChanged            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       12       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |@@@                                      1        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@@@                                      1        
+            4096 |                                         0        
+
+  PHal::Msg_ModifyWakeLock                          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       12       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |@@@                                      1        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@@@                                      1        
+            4096 |                                         0        
+
+  PLayerTransaction::Msg_NewCompositable            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1411     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         2        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         2        
+            2048 |                                         0        
+
+  PDocumentChannel::Reply_ConfirmRedirect           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    11       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |                                         0        
+            4096 |@@@                                      1        
+            8192 |                                         0        
+
+  PBrowser::Msg_ReplyKeyEvent                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   17       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |                                         0        
+            4096 |@@                                       1        
+            8192 |                                         0        
+
+  PHttpChannel::Msg_DeleteSelf                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 1952     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         2        
+              16 |                                         5        
+              32 |                                         6        
+              64 |                                         4        
+             128 |                                         1        
+             256 |                                         1        
+             512 |                                         1        
+            1024 |                                         1        
+            2048 |                                         1        
+            4096 |                                         0        
+
+  PWindowGlobal::Msg_SetIsInitialDocument           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  163      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         1        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         1        
+            2048 |                                         1        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PBrowser::Msg_OnContentBlockingEvent              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  238      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         3        
+            1024 |                                         0        
+            2048 |                                         3        
+            4096 |                                         0        
+
+  PHttpChannel::Msg_OnStatus                        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  2211     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         7        
+              16 |                                         13       
+              32 |                                         8        
+              64 |                                         2        
+             128 |                                         1        
+             256 |                                         3        
+             512 |                                         1        
+            1024 |                                         0        
+            2048 |                                         1        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PContent::Msg_BHRThreadHang                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      49       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |@                                        1        
+             512 |@                                        1        
+            1024 |@                                        2        
+            2048 |@@                                       3        
+            4096 |                                         0        
+
+  PHttpChannel::Msg_OnStartRequest                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  1835     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         5        
+              32 |                                         10       
+              64 |                                         9        
+             128 |                                         2        
+             256 |                                         1        
+             512 |                                         0        
+            1024 |                                         2        
+            2048 |                                         3        
+            4096 |                                         0        
+
+  PNecko::Msg_RequestContextLoadBegin               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    82       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@                                        3        
+            1024 |                                         0        
+            2048 |@@                                       4        
+            4096 |                                         0        
+
+  PDocumentChannel::Msg___delete__                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     74       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |@                                        2        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@                                        2        
+            1024 |                                         1        
+            2048 |@                                        2        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PDocumentChannel::Reply_RedirectToRealChannel     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     74       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |@                                        2        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@                                        2        
+            1024 |                                         1        
+            2048 |@                                        2        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PBrowser::Msg_ChildToParentMatrix                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  1013     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         3        
+              16 |                                         8        
+              32 |                                         2        
+              64 |                                         1        
+             128 |                                         0        
+             256 |                                         0        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |                                         3        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PBrowser::Msg_VisitURI                            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   145      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         1        
+             512 |                                         1        
+            1024 |                                         0        
+            2048 |@                                        5        
+            4096 |                                         0        
+
+  PWindowGlobal::Msg_BecomeCurrentWindowGlobal      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   194      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         1        
+             512 |                                         1        
+            1024 |@                                        5        
+            2048 |                                         1        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PWindowGlobal::Msg_UpdateDocumentURI              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   246      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         1        
+             512 |                                         1        
+            1024 |@                                        5        
+            2048 |                                         1        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PBrowser::Msg_NewWindowGlobal                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   186      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         0        
+             256 |                                         1        
+             512 |                                         1        
+            1024 |@                                        5        
+            2048 |                                         1        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PHttpChannel::Msg_Redirect2Verify                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    94       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         1        
+             256 |                                         0        
+             512 |@                                        2        
+            1024 |                                         1        
+            2048 |@                                        3        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PNecko::Msg_PDocumentChannelConstructor           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      72       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         1        
+             256 |                                         1        
+             512 |                                         1        
+            1024 |@                                        2        
+            2048 |@@                                       4        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PNecko::Msg_PredPredict                           
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      83       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         1        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         0        
+             256 |                                         1        
+             512 |                                         1        
+            1024 |@                                        3        
+            2048 |@@                                       4        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PNecko::Msg_RequestContextAfterDOMContentLoaded   
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      122      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         0        
+              32 |                                         0        
+              64 |@                                        3        
+             128 |                                         0        
+             256 |@                                        3        
+             512 |@                                        4        
+            1024 |@                                        3        
+            2048 |@                                        3        
+            4096 |@                                        2        
+            8192 |                                         0        
+
+  PHttpChannel::Msg_SetPriority                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  719      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         3        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         2        
+             256 |                                         2        
+             512 |                                         1        
+            1024 |                                         3        
+            2048 |                                         8        
+            4096 |                                         0        
+
+  PContent::Msg_CacheBrowsingContextChildren        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    190      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+             128 |                                         1        
+             256 |                                         0        
+             512 |@                                        3        
+            1024 |                                         1        
+            2048 |@                                        7        
+            4096 |                                         1        
+            8192 |                                         0        
+
+  PAltDataOutputStream::Msg___delete__              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@         35       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@                                        1        
+            1024 |                                         0        
+            2048 |@@@@@@                                   7        
+            4096 |                                         0        
+            8192 |@                                        1        
+           16384 |                                         0        
+
+  PContent::Msg_AccumulateChildKeyedHistograms      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@                              12       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |@@                                       2        
+              32 |@@@@                                     4        
+              64 |@@@@@@                                   7        
+             128 |@@@@@                                    6        
+             256 |@@@                                      3        
+             512 |                                         0        
+            1024 |@@@                                      3        
+            2048 |@@@@@                                    5        
+            4096 |@@                                       2        
+            8192 |                                         0        
+
+  PContent::Msg_AttachBrowsingContext               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    157      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         1        
+             256 |                                         0        
+             512 |@                                        4        
+            1024 |@                                        3        
+            2048 |@                                        3        
+            4096 |@                                        3        
+            8192 |                                         0        
+
+  PContent::Msg_UpdateChildScalars                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@                                     3        
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |@@@@                                     3        
+              64 |@                                        1        
+             128 |@@@@@@@@@@@@@@@                          12       
+             256 |@@@@@                                    4        
+             512 |                                         0        
+            1024 |@@                                       2        
+            2048 |@@@@@@@                                  6        
+            4096 |@@                                       2        
+            8192 |                                         0        
+
+  PContent::Msg_RecordDiscardedData                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@                              13       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |@@@                                      3        
+              64 |@@@                                      3        
+             128 |@@@@@@@@@@                               12       
+             256 |@@@@                                     5        
+             512 |                                         0        
+            1024 |@@                                       2        
+            2048 |@@@@@                                    6        
+            4096 |@@                                       2        
+            8192 |                                         0        
+
+  PTexture::Msg_Destroy                             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     906      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         2        
+              32 |                                         8        
+              64 |@@@                                      65       
+             128 |                                         2        
+             256 |                                         5        
+             512 |                                         2        
+            1024 |@                                        13       
+            2048 |                                         7        
+            4096 |                                         0        
+
+  PBrowser::Msg_OnStateChange                       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    317      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         3        
+             128 |                                         0        
+             256 |                                         2        
+             512 |@                                        5        
+            1024 |@                                        6        
+            2048 |@                                        7        
+            4096 |                                         3        
+            8192 |                                         0        
+
+  PBrowser::Msg_OnStatusChange                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   794      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         1        
+              32 |                                         2        
+              64 |                                         3        
+             128 |                                         5        
+             256 |                                         3        
+             512 |                                         6        
+            1024 |                                         8        
+            2048 |                                         10       
+            4096 |                                         2        
+            8192 |                                         0        
+
+  PWindowGlobal::Msg_RawMessage                     
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     154      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         2        
+             512 |                                         1        
+            1024 |@                                        4        
+            2048 |                                         2        
+            4096 |@@                                       8        
+            8192 |                                         1        
+           16384 |                                         0        
+
+  PContent::Msg_AsyncMessage                        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      184      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         1        
+             512 |                                         0        
+            1024 |                                         0        
+            2048 |@@@@@                                    24       
+            4096 |                                         2        
+            8192 |                                         0        
+
+  PHttpChannel::Msg_Cancel                          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           133      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         1        
+              64 |                                         0        
+             128 |                                         0        
+             256 |                                         0        
+             512 |@@@                                      12       
+            1024 |@                                        3        
+            2048 |@@@@@                                    23       
+            4096 |@                                        3        
+            8192 |                                         0        
+
+  PNecko::Msg_RemoveRequestContext                  
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    762      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         1        
+             128 |                                         3        
+             256 |@                                        31       
+             512 |                                         7        
+            1024 |                                         9        
+            2048 |                                         10       
+            4096 |                                         10       
+            8192 |                                         0        
+
+  PCookieService::Msg_SetCookieString               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        320      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         3        
+              64 |                                         2        
+             128 |                                         0        
+             256 |@                                        6        
+             512 |@                                        12       
+            1024 |@                                        12       
+            2048 |@@                                       16       
+            4096 |@@                                       15       
+            8192 |                                         0        
+
+  PHttpChannel::Msg_DocumentChannelCleanup          
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    748      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         1        
+              32 |                                         2        
+              64 |                                         2        
+             128 |                                         2        
+             256 |                                         2        
+             512 |                                         7        
+            1024 |@                                        16       
+            2048 |@                                        18       
+            4096 |@                                        15       
+            8192 |                                         1        
+           16384 |                                         0        
+
+  PContent::Msg_CommitBrowsingContextTransaction    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    1465     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         2        
+              16 |                                         1        
+              32 |                                         6        
+              64 |                                         3        
+             128 |                                         5        
+             256 |                                         3        
+             512 |@                                        21       
+            1024 |@                                        23       
+            2048 |@                                        20       
+            4096 |                                         15       
+            8192 |                                         0        
+
+  PNecko::Msg_PAltDataOutputStreamConstructor       
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@                        19       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         0        
+             256 |@@                                       2        
+             512 |@@@                                      3        
+            1024 |@                                        1        
+            2048 |                                         0        
+            4096 |@@@@                                     4        
+            8192 |@@@@@@@@@@@@@@                           15       
+           16384 |                                         0        
+
+  PAltDataOutputStream::Msg_Close                   
+           value  ------------- Distribution ------------- count    
+              16 |                                         0        
+              32 |@                                        1        
+              64 |@@                                       2        
+             128 |                                         0        
+             256 |@@@@                                     4        
+             512 |@@@@@@@@                                 9        
+            1024 |@@@@                                     4        
+            2048 |@@                                       2        
+            4096 |@@@@@                                    5        
+            8192 |@@@@@@@@@@@@@@@                          17       
+           16384 |                                         0        
+
+  PAltDataOutputStream::Msg_DeleteSelf              
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@                     43       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         1        
+              32 |                                         1        
+              64 |                                         1        
+             128 |                                         1        
+             256 |@@                                       4        
+             512 |@@@@                                     9        
+            1024 |@@                                       4        
+            2048 |@                                        2        
+            4096 |@@                                       5        
+            8192 |@@@@@@@@                                 17       
+           16384 |                                         0        
+
+  PHttpChannel::Msg___delete__                      
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    1828     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         1        
+              32 |                                         5        
+              64 |                                         7        
+             128 |                                         8        
+             256 |                                         10       
+             512 |                                         21       
+            1024 |@                                        37       
+            2048 |@                                        49       
+            4096 |                                         6        
+            8192 |                                         1        
+           16384 |                                         0        
+
+  PAltDataOutputStream::Msg_WriteData               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@                                19       
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         0        
+              64 |                                         0        
+             128 |                                         1        
+             256 |@@@@                                     8        
+             512 |@@@@@@                                   12       
+            1024 |@@                                       5        
+            2048 |@@@                                      7        
+            4096 |@@@@@                                    10       
+            8192 |@@@@@@@@@@@                              23       
+           16384 |                                         0        
+
+  PContent::Msg_ScriptError                         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       1185     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         0        
+              32 |                                         3        
+              64 |                                         3        
+             128 |                                         3        
+             256 |@                                        22       
+             512 |@                                        44       
+            1024 |@                                        34       
+            2048 |@@                                       52       
+            4096 |@                                        23       
+            8192 |                                         8        
+           16384 |                                         0        
+
+  PNecko::Msg_PredLearn                             
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@        1233     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         1        
+              32 |                                         3        
+              64 |                                         9        
+             128 |                                         12       
+             256 |@                                        46       
+             512 |@@                                       64       
+            1024 |@                                        51       
+            2048 |@                                        48       
+            4096 |@                                        33       
+            8192 |                                         1        
+           16384 |                                         0        
+
+  PLayerTransaction::Msg_ReleaseCompositable        
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@                           500      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         8        
+              16 |@@@                                      121      
+              32 |@@@@@@@@@@                               367      
+              64 |@@@                                      114      
+             128 |@                                        27       
+             256 |@                                        42       
+             512 |@                                        51       
+            1024 |@@                                       84       
+            2048 |@@                                       80       
+            4096 |                                         13       
+            8192 |                                         0        
+
+  PHttpChannel::Msg_DeletingChannel                 
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     1688     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         4        
+              32 |                                         6        
+              64 |                                         9        
+             128 |                                         11       
+             256 |                                         15       
+             512 |@                                        30       
+            1024 |@                                        37       
+            2048 |@                                        27       
+            4096 |                                         23       
+            8192 |                                         20       
+           16384 |                                         0        
+
+  PLayerTransaction::Msg_ReleaseLayer               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@                          570      
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         2        
+              16 |@@@                                      116      
+              32 |@@@@@@@@@@                               365      
+              64 |@@@@                                     145      
+             128 |@                                        28       
+             256 |@                                        47       
+             512 |@                                        54       
+            1024 |@@                                       91       
+            2048 |@@                                       84       
+            4096 |                                         13       
+            8192 |                                         0        
+
+  PNecko::Msg_PHttpChannelConstructor               
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       1683     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         1        
+              32 |                                         3        
+              64 |                                         7        
+             128 |                                         16       
+             256 |@                                        25       
+             512 |@                                        38       
+            1024 |@@                                       78       
+            2048 |@                                        71       
+            4096 |@                                        46       
+            8192 |                                         6        
+           16384 |                                         0        
+
+  PHttpBackgroundChannel::Msg___delete__            
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   1853     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         1        
+              16 |                                         5        
+              32 |                                         6        
+              64 |                                         4        
+             128 |                                         12       
+             256 |                                         9        
+             512 |                                         7        
+            1024 |                                         9        
+            2048 |                                         10       
+            4096 |                                         21       
+            8192 |@                                        26       
+           16384 |                                         9        
+           32768 |                                         1        
+           65536 |                                         0        
+
+  PHttpBackgroundChannel::Msg_OnStartRequestSent    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    1707     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         0        
+              16 |                                         4        
+              32 |                                         6        
+              64 |                                         17       
+             128 |                                         13       
+             256 |                                         19       
+             512 |                                         14       
+            1024 |                                         19       
+            2048 |                                         18       
+            4096 |                                         14       
+            8192 |                                         16       
+           16384 |                                         21       
+           32768 |                                         0        
+
+  PHttpBackgroundChannel::Msg_OnStopRequest         
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@                1152     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         0        
+               8 |                                         11       
+              16 |@                                        43       
+              32 |@@                                       72       
+              64 |@@@                                      119      
+             128 |@@                                       114      
+             256 |@@                                       89       
+             512 |@                                        66       
+            1024 |@                                        48       
+            2048 |@                                        55       
+            4096 |@                                        36       
+            8192 |@                                        29       
+           16384 |@                                        31       
+           32768 |                                         2        
+           65536 |                                         0        
+
+  PHttpBackgroundChannel::Msg_OnTransportAndData    
+           value  ------------- Distribution ------------- count    
+              -1 |                                         0        
+               0 |@@@@@@@@@@@@@@@@@@@@@@@@@@@              2354     
+               1 |                                         0        
+               2 |                                         0        
+               4 |                                         1        
+               8 |                                         13       
+              16 |                                         38       
+              32 |@                                        53       
+              64 |@                                        53       
+             128 |@                                        57       
+             256 |@                                        113      
+             512 |@@                                       137      
+            1024 |@@                                       141      
+            2048 |@                                        123      
+            4096 |@@                                       134      
+            8192 |@                                        113      
+           16384 |@                                        100      
+           32768 |                                         11       
+           65536 |                                         0
